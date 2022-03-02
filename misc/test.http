@@ -1,0 +1,1 @@
+GET http://localhost:8080/rmd/user/roles?id=2Accept: application/json###POST http://localhost:8080/rmd/user/createContent-Type: application/json{  "email": "phelix@mail.com",  "first_name": "Phelix",  "last_name": "Ochieng",  "role": 1,  "password": "123"}###
