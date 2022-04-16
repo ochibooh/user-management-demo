@@ -23,7 +23,7 @@
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <start-class>ke.co.phyno.app.busta.pesa.api.bet.ApiBetApplication</start-class>
+        <start-class>com.ochibooh.demo.rmd.RoleManagementApplication</start-class>
     </properties>
 
     <dependencies>
@@ -35,6 +35,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter -->
